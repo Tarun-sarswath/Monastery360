@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sikkim Tourism</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="content">
+	<div class="loading">Loading</div>
+	<div class="trigger"></div>
+
+	<!-- Section 1: Intro -->
+	<div class="section">
+		<h1>Welcome to Sikkim</h1>
+		<h3>The Hidden Paradise of the Himalayas</h3>
+		<p>Discover monasteries, mountains, and magical landscapes.</p>
+		<div class="scroll-cta">Scroll to Explore</div>
+	</div>
+	
+	<!-- Section 2: Buses analogy -->
+	<div class="section right">
+		<h2>Where journeys feel like stories...</h2>
+	</div>
+	
+	<!-- Section 3: Ground + Clouds Parallax -->
+	<div class="ground-container">
+		<div class="parallax ground"></div>
+		<div class="section right">
+			<h2>Mountains that touch the sky.</h2>
+			<p>The Himalayas, standing tall and majestic.</p>
+		</div>
+
+		<div class="section">
+			<h2>Spiritual Serenity.</h2>
+			<p>Over 200 monasteries, each a tale of faith and peace.</p>
+		</div>
+		
+		<div class="section right">
+			<h2>Culture & Colors.</h2>
+			<p>Festivals, traditions, and vibrant local life.</p>
+		</div>
+		<div class="parallax clouds"></div>
+	</div>
+	
+	<!-- Section 4: Blueprint Style -->
+	<div class="blueprint">
+		<svg width="100%" height="100%" viewbox="0 0 100 100">
+			<line id="line-length" x1="10" y1="80" x2="90" y2="80" stroke-width="0.5"></line>
+			<path id="line-wingspan" d="M10 50, L40 35, M60 35 L90 50" stroke-width="0.5"></path>
+			<circle id="circle-phalange" cx="60" cy="60" r="15" fill="transparent" stroke-width="0.5"></circle>
+		</svg>
+		<div class="section dark">
+			<h2>Sikkim Highlights</h2>
+			<p>Nature, adventure, culture — all in one place.</p>
+		</div>
+		<div class="section dark length">
+			<h2>Mountains</h2>
+			<p>Home to Kanchenjunga, the third-highest peak.</p>
+		</div>
+		<div class="section dark wingspan">
+			<h2>Monasteries</h2>
+			<p>Rumtek, Pemayangtse, Tashiding — spiritual treasures.</p>
+		</div>
+		<div class="section dark phalange">
+			<h2>Lakes</h2>
+			<p>Tsongmo, Gurudongmar, Khecheopalri — stunning high-altitude lakes.</p>
+		</div>
+		<div class="section dark">
+			<h2>Adventure</h2>
+			<p>Trekking, rafting, and biking in untouched landscapes.</p>
+		</div>
+	</div>
+	
+	<!-- Section 5: Sunset / Ending -->
+	<div class="sunset">
+		<div class="section"></div>
+		<div class="section end">
+			<h2>Visit Sikkim</h2>
+			<ul class="credits">
+				<li>Experience nature, culture, and peace.</li>
+				<li>Discover the land of monasteries and mountains.</li>
+				<li>Crafted with ❤️ for Sikkim Tourism.</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- JS files -->
+<script src='https://codepen.io/ste-vg/pen/zBVaZw.js'></script>
+<script src='https://unpkg.com/three@0.117.1/build/three.min.js'></script>
+<script src='https://unpkg.com/three@0.117.1/examples/js/loaders/OBJLoader.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js'></script>
+<script src="./script.js"></script>
+</body>
+</html>
